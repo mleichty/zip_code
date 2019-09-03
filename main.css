@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 4, 2017, 8:12:50 PM
+    Author     : Maria Leichty
+*/
+
+div#zipcode-input {
+    width: 600px;
+    border: 0px solid #333;
+    margin: 30px auto 10px auto;
+}
+
+table#zipcode-results {
+    width: 600px;
+    border: 1px solid #aaa;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 4px 4px 16px 2px #aaa;
+}
+
+table#zipcode-results tr:nth-child(even) {
+    background-color: #eee; 
+}
+
+table#zipcode-results tr td:first-child{
+    width: 100px;
+    padding-right: 20px;
+    text-align: right;
+    font-weight: bold;
+}
+
+table#zipcode-results td {
+    padding: 10px 2px;
+}
+
+
+
